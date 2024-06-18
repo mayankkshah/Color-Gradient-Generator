@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #051927,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+button {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+#myButton {
+  background-color: #051927;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#myButton2 {
+  background-color: #008793;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copyCode {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+}
